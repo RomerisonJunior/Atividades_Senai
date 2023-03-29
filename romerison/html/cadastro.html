@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="../css/reset.css"> -->
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Casdastro pro Meu Site</h1>
+    <form action="../php/cadastro.php" method="post">
+        <li>Nome Completo: <input type="text" name="iptNome" placeholder="Nome Completo"> </li>
+        <li>CPF: <input type="text" name="iptCPF" placeholder="123.456.789-00"></li>
+        <li>RG: <input type="number" name="iptRG" placeholder="12345678"></li>
+        <li>Gênero: <br>
+            <input type="radio" name="iptGenero" value="Masculino">Masculino <br>
+            <input type="radio" name="iptGenero" value="Feminino">Feminino <br>
+        </li>
+        <li>Estado Civil: <select name="iptEstCivil" id="">
+            <option value="">Selecionar</option>
+            <option value="casado">Casado (a)</option>
+            <option value="solteiro">Solteiro (a)</option>
+            <option value="viuvo">Viuvo (a)</option>
+            <option value="divorsiado">Divorsiado (a)</option>
+        </select></li>
+        <li>Data de Nascimento: <input type="date" name="iptDataNasc" id=""> </li>
+        
+        <li>CEP: <input type="text" name="iptCEP" placeholder="90.986-00"></li>
+        <li>Endereço: <input type="text" name="iptEndereco" placeholder="Endereço"></li>
+        <li>Bairro: <input type="text" name="iptBairro" placeholder="Rua,Avenida,Beco"></li>
+        <li>Estado: <select name="iptEstado" id="">
+            <option value="">Selecionar</option>
+            <option value="AC">AC</option>
+            <option value="AL">AL</option>
+            <option value="AP">AP</option>
+            <option value="AM">AM</option>
+            <option value="BA">BA</option>
+            <option value="CE">CE</option>
+            <option value="DF">DF</option>
+            <option value="ES">ES</option>
+            <option value="GO">GO</option>
+            <option value="MA">MA</option>
+            <option value="MT">MT</option>
+            <option value="MS">MS</option>
+            <option value="MG">MG</option>
+            <option value="PA">PA</option>
+            <option value="PB">PB</option>
+            <option value="PR">PR</option>
+            <option value="PE">PE</option>
+            <option value="PI">PI</option>
+            <option value="RJ">RJ</option>
+            <option value="RN">RN</option>
+            <option value="RS">RS</option>
+            <option value="RO">RO</option>
+            <option value="RR">RR</option>
+            <option value="SC">SC</option>
+            <option value="SP">SP</option>
+            <option value="SE">SE</option>
+            <option value="TO">TO</option>
+        </select></li>
+        <li>Cidade: <input type="text" name="iptCidade" placeholder="Macapá"></li>
+        <li>Número: <input type="number" name="iptNumero" placeholder="123"></li>
+
+        <div class="botao"><input name="iptBtn" type="submit" value="Enviar"></div>
+    </form>
+  </div>
+</body>
+</html>

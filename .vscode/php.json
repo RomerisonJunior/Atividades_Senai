@@ -1,0 +1,10 @@
+{
+    "sytem format": { "prefix": "souf", "body": ["System.out.format();"] },
+
+    "php": {
+        "scope": "php",
+        "prefix": "<?p",
+        "body": ["<?php?>"],
+        "description": "Insere a Tag PHP nos documentos PHP"
+    }
+}
